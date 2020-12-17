@@ -510,8 +510,8 @@
                 class="nohighlight example"
               >
                 <!--
-                <<?c a rdfs:Class>> dct:source ?src ;
-                    prov:wasDerivedFrom <<?c a owl:Class>> .
+                <<?c a owl:Class>> dct:source ?src ;
+                    :entailing <<?c a rdfs:Class>> .
                 -->
               </pre>
               must be expanded to
@@ -520,8 +520,8 @@
                 class="nohighlight example"
               >
                 <!--
-                <<?c a rdfs:Class>> dct:source ?src .
-                <<?c a rdfs:Class>> prov:wasDerivedFrom <<?c a owl:Class>> .
+                <<?c a owl:Class>> dct:source ?src .
+                <<?c a rdfs:Class>> :entailing <<?c a rdfs:Class>> .
                 -->
               </pre>
             </div>
